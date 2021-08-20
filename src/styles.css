@@ -45,8 +45,7 @@ body {
   padding: 3rem;
 }
 
-.btn,
-.btn1 {
+.btn {
   background-color: transparent;
   border: 2px solid var(--secondary);
   padding: 0.6rem 0.8rem;

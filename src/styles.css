@@ -60,3 +60,24 @@ body {
   font-weight: 400;
   font-size: 1.3rem;
 }
+
+/* footer */
+.footer {
+  margin-top: 2rem;
+}
+
+.social-links {
+  list-style: none;
+  margin: auto;
+}
+
+.social-links a {
+  display: inline;
+  color: var(--secondary);
+  font-size: 2.5rem;
+  margin: auto 1rem;
+}
+
+.footer small {
+  font-size: 1rem;
+}

@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
+import Footer from "./footer";
 
 export default function App() {
   const [lucky, setLucky] = useState(0);
@@ -60,6 +61,7 @@ export default function App() {
           <h3>{messg}</h3>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

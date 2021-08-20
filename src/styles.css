@@ -1,4 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --secondary: #0a0a0a;
+  --primary: #7c3aed;
+}
+
+body {
+  margin: 0rem;
+  background-color: var(--primary);
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary);
+  margin-top: 5rem;
+}
+
+#date,
+#luckyn {
+  margin: 0.5rem auto;
+  width: 100%;
+  padding: 0.5rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  display: block;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+}
+
+.contain {
+  width: 650px;
+  margin: auto;
+  padding: 3rem;
+}
+
+.btn,
+.btn1 {
+  background-color: transparent;
+  border: 2px solid var(--secondary);
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  margin: 0.4rem;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+.inputs label {
+  font-weight: 400;
+  font-size: 1.3rem;
 }
